@@ -24,7 +24,10 @@ namespace LinqExercise
              */
 
             //Print the Sum and Average of numbers
-
+            var av = numbers.Average();
+            var sum = numbers.Sum();
+            Console.WriteLine(av);
+            Console.WriteLine(sum);
             //Order numbers in ascending order and decsending order. Print each to console.
 
             //Print to the console only the numbers greater than 6
